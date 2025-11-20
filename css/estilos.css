@@ -7,6 +7,7 @@
 }
 
 body{
+
     justify-content: flex-end;
     background-color: #f5f5f5;
     color: #333;
@@ -19,14 +20,15 @@ header{
     padding: 20px;
     background-color: white;
 }
-header img{
+header img{ 
+    
     max-width: 150px;
     max-height: 150px;
     margin-bottom: 10px;
     transition: display all;
 }
 nav {
-    background-color: #0055a5;
+    background-color: #0c0a64;
     padding: 10px;
     margin: 20px 0;
 }
@@ -66,7 +68,23 @@ article{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
+article img{
+    width: 600px;
+}
+article ul, ol, dl{
+    padding: 10px;
+    margin: 18px;
+}
+article table{
+    background-color: rgb(248, 238, 250);
+    border: 2px solid;
+}
+article table th,td{
+    border: 1px solid;
+
+}
 aside{
+    justify-content: center;
     flex: 1;
     background-color: #eef;
     padding: 15px;
@@ -74,10 +92,19 @@ aside{
     box-shadow: 0 2px 5px #022442;
 }
 footer{
+
     text-align: center;
     padding: 15px;
     background-color: #0055a5;
     color: white;
     border-radius: 8px;
     margin-top: 20px;
+}
+footer a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    flex: 2;
+
 }
