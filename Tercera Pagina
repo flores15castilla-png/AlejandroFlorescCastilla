@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi Tercera Pagina</title>
+        <link rel="icon" href="images/logo.jpg">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+       <header>
+            <img src="images/logo.jpg" alt="logo senati" with="300" height="300">
+            <h1>MI PRIMERA PAGINA WEB</h1>
+            <h2>Soy Leonardo</h2>
+       </header>
+       <nav>
+           <ul id="menu">
+            <li><a href="Mi Primera Pagina.html">Primera Pagina</a></li>
+            <li><a href="Segunda Pagina.html">Segunda Pagina</a></li>
+            <li><a href="Tercera Pagina.html">Tercera Pagina</a></li>
+            <li><a href="Cuarta Pagina.html">Cuarta Pagina</a></li>
+            <li><a href="Quinta Pagina.html">Quinta Pagina</a></li>
+            <li><a href="Pagina Personal.html">Pagina Personal</a></li>
+            <li><a>ENTREGABLE</a></li>
+           </ul> 
+       </nav>
+       <section>
+        <article>
+            <h4>PERSONAJES DE Date A Live</h4>
+        <table>
+
+            <tr>
+                <th>NOMBRE</th><th>ESPIRITU</th><th>ARMA</th><th>PERSONALIDAD</th>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+        </ol>
+        </table>
+        </article>
+        <aside> 
+            <img src="imagenes/" alt="left" with="300" height="300">
+        
+        </aside>
+       </section>
+       <section>
+        <article>
+        <h4></h4>
+        <table>
+            <tr>
+                <th></th><th></th><th></th><th></th>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>   
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </th>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td><td></td><td></td>>
+            </tr>
+        </table>
+        </article>
+        <aside> 
+            <img src="images" alt="armas" with="450" height="400">
+        </aside>
+        
+       </section>
+    
+       <footer>
+            <a href="https://arnoldbgq.github.io/arnoldgonzalez/" target="_blank">Página del Instructor</a>
+            <a href="https://github.com/arnoldbgq/arnoldgonzalez" target="_blank">Repositorio del Instructor</a>
+            <a href="https://github.com/leof118/leonardoflores" target="_blank">github de Leonardo</a>
+            <p>2025 - Segundo Semestre - Todo los Derechos Reservados</p>
+       </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
