@@ -2,14 +2,14 @@
 <html>
     <head>
         <title>Tercera Pagina</title>
-        <link rel="icon" href="images/logo.jpg">
+        <link rel="icon" href="imagenes/senati.jpg">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
        <header>
-            <img src="images/logo.jpg" alt="logo senati" with="300" height="300">
+            <img src="imagenes/senati.jpg" alt="senati.jpg" with="300" height="300">
             <h1>MI PRIMERA PAGINA WEB</h1>
-            <h2>Soy Leonardo</h2>
+            <h2>Soy Alejandro</h2>
        </header>
        <nav>
            <ul id="menu">
