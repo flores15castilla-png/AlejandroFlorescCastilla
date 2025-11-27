@@ -24,3 +24,48 @@
        </nav>
        <section>
         <article>
+         <H3>Mi primer Formulario</H3>
+         <form action="" method="post">
+            <fieldset>
+               <legend>Datos personales</legend>
+                  <input type="text" name="nombre" placeholder="Nombre completo">
+                  <input type="email" name="correo" placeholder="Correo electrónico">
+            </fieldset>
+
+            <input type="email" name="correo" placeholder="email">
+            <input type="number" name="edad" min="1" max="100">
+            <input type="date" name="fecha_nacimiento">
+            <input type="file" name="documento">
+            <h4> Botones de radio </h4>
+            <p>Género:</p>
+               <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+               <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+               <label><input type="radio" name="genero" value="otro"> Otro</label>
+
+            <h4>Casillas</h4>
+            <p>Intereses:</p>
+            <label><input type="checkbox" name="interes" value="musica"> Música</label>
+            <label><input type="checkbox" name="interes" value="cine"> Cine</label>
+            <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
+            <label><input type="checkbox" name="interes" value="programar"> Programar</label>
+            
+            <h4>Lista desplegable simple </h4>
+            <select name="pais">
+               <option value="ar">Argentina</option>
+               <option value="co">Colombia</option>
+                <option value="mx">México</option>
+                <option value="pe">Perú</option>
+            </select>
+            <h4>Lista con múltiples opciones</h4>
+            <select name="cursos" multiple size="1">
+               <option value="html">HTML</option>
+               <option value="css">CSS</option>
+               <option value="js">JavaScript</option>
+               <option value="php">PHP</option>
+            </select>
+            <h4>Área de texto (varias líneas)</h4>
+            <textarea name="comentarios" rows="4" cols="40" placeholder="aqui ponga sus comentarios"></textarea>
+            <h4>Botones</h4>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <button type="button" onclick="alert('Hola')">Haz clic</button>
