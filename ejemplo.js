@@ -13,7 +13,7 @@ function cambiarColor(){
 
 }
 function cambiarLogo(){
-    document.getElementById('logo').src='images/logo2.jpg';
+    document.getElementById('logo').src='imagenes/senati 2.jpg';
 }
 function cambiarFondo(){
      document.getElementById('menu').style.background='#867513ff';
