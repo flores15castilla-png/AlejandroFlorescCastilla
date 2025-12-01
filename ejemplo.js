@@ -1,5 +1,5 @@
 console.log("Hola mi estimado invitado");
-alert("Hola Mundo, esto es un alert") 
+alert("Coma ta muchacho") 
 
 function ceniza(){
     document.getElementById('ceniza').src='imagenes/ceniza';
