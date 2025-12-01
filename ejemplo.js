@@ -5,22 +5,22 @@ function ceniza(){
     document.getElementById('ceniza').src='imagenes/ceniza';
     alert("esperate mano era broma aaaaaaa");
 }
-function bebe-transformado(){
-    document.getElementById('bebe-transformado').src='imagenes/bebe-transformado';
+function bebe(){
+    document.getElementById('bebe').src='imagenes/bebe';
 }
 function cambiarColor(){
-    document.getElementById('menu').style.color='#42f185ff';
+    document.getElementById('menu').style.color='#489264ff';
 
 }
 function cambiarLogo(){
     document.getElementById('logo').src='images/logo2.jpg';
 }
 function cambiarFondo(){
-     document.getElementById('menu').style.background='#524604';
+     document.getElementById('menu').style.background='#867513ff';
 }
 function cambiodeTexto(){
     document.getElementById('Subtitulo').textContent="YA LE SE AL JS";
 }
 function fondoAside(){
-    document.getElementById('aside').style.background='#f584f5ff';
+    document.getElementById('aside').style.background='#15ff00ff';
 }
