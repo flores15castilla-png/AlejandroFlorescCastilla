@@ -1,12 +1,12 @@
 console.log("Hola mi estimado invitado");
-alert("Coma ta muchacho") 
+alert("Yo lo veo usted muy bien") 
 
 function ceniza(){
     document.getElementById('ceniza').src='imagenes/ceniza';
     alert("esperate mano era broma aaaaaaa");
 }
-function feliz(){
-    document.getElementById('carita').src='images/happy.png';
+function bebe-transformado(){
+    document.getElementById('bebe-transformado').src='imagenes/bebe-transformado';
 }
 function cambiarColor(){
     document.getElementById('menu').style.color='#42f185ff';
