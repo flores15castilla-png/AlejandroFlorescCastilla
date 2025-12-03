@@ -1,11 +1,11 @@
 console.log("Hola muchacho");
 alert("Yo lo veo a usted muy bien")
 
-function ceniza(){
+function bebe(){
     document.getElementById('bebe').src ='imagenes/bebe.png';
 }
 
-function bebe(){
+function ceniza(){
     document.getElementById('ceniza').src ='imagenes/ceniza.png'
 }
 
