@@ -22,4 +22,3 @@ function cambiodeTexto(){
 function fondoAside(){
     document.getElementById('aside').style.background ='#15ff00'
 }
-
