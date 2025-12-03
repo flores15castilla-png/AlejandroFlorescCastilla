@@ -1,33 +1,31 @@
-<script>
-console.log("Hola mi estimado invitado")
-alert("Yo lo veo usted muy bien")
+console.log("Hola muchacho");
+alert("Yo lo veo a usted muy bien")
 
 function ceniza(){
-    document.getElementById('bebe').src = "imagenes/ceniza.png"
-    alert("esperate mano era broma aaaaaaa")
+    document.getElementById('bebe').src ='imagenes/bebe.png';
 }
 
 function bebe(){
-    document.getElementById('bebe').src = "imagenes/bebe.png"
+    document.getElementById('ceniza').src ='imagenes/ceniza.png'
 }
 
 function cambiarColor(){
-    document.getElementById('menu').style.color = "#489264"
+    document.getElementById('menu').style.color ='#006828ff'
 }
 
 function cambiarLogo(){
-    document.querySelector("header img").src = "imagenes/senati 2.jpg"
+    document.querySelector("header img").src ='imagenes/senati 2.jpg'
 }
 
 function cambiarFondo(){
-    document.getElementById('menu').style.background = "#867513"
+    document.getElementById('menu').style.background ='#867513'
 }
 
 function cambiodeTexto(){
-    document.querySelector("h2").textContent = "YA LE SE AL JS"
+    document.querySelector("h2").textContent ='YA LE SE AL JS'
 }
 
 function fondoAside(){
-    document.getElementById('aside').style.background = "#15ff00"
+    document.getElementById('aside').style.background ='#15ff00'
 }
-</script>
+
