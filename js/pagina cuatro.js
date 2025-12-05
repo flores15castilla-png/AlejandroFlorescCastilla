@@ -10,13 +10,7 @@ function ceniza(){
     alert("me quitaste mis derechos T_T");
 }
 function cambiarColor(){
-    document.getElementById('menu').style.color ='#4eb977ff'
-    document.getElementById('men0').style.color='#6e652eff';
-    document.getElementById('men1').style.color='#386638ff';
-    document.getElementById('men2').style.color='#07064dff';
     document.getElementById('men3').style.color='#68000eff';
-    document.getElementById('men4').style.color='#2dc3ffff';
-    document.getElementById('men5').style.color='#f30be7ff';
     alert("coformate con este humilde color >:V");
 }
 function cambiarLogo(){
