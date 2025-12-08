@@ -7,7 +7,7 @@ function bebe() {
 }
 
 function ceniza() {
-    const img = document.getElementById('ceniza').src = 'imagenes/ceniza.png';
+    const img = document.getElementById('bebe').src = 'imagenes/ceniza.png';
     alert("me quitaste mis derechos T_T");
 }
 
