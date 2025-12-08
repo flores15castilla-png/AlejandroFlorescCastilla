@@ -1,27 +1,29 @@
-document.getElementById("calcular").addEventListener("click", function(){
-    let num1 = parseFloat(document.getElementById("numero1").value);
-    let num2 = parseFloat(document.getElementById("numero2").value);
-    let operacion = document.getElementById("operacion").value;
-    let resultado = document.getElementById("resultado");
+console.log("Pagina cargada");
+alert("Bienvenido a la quinta pagina");
 
-    if(isNaN(num1)||isNaN(num2)){
-        resultado.textContent = "Ingrese números Valido";
-        return;
-    }
-function calcular(a,b, op){
-    switch (op) {
-        case "suma":
-            return a+b;     
-        case "resta":
-            return a-b;
-        case "multiplicacion":
-            return a*b;
-        case "division":
-            return a/b;
-        default:
-            return "Operación Inválida"
-    }
+function saludar() {
+    alert("Hola");
 }
-let resultadoFinal = calcular(num1,num2,operacion);
-resultado.textContent="El Resultado es: "+resultadoFinal;
-})
+
+document.getElementById("calcular").addEventListener("click", function() {
+    var n1 = Number(document.getElementById("numero1").value);
+    var n2 = Number(document.getElementById("numero2").value);
+    var operacion = document.getElementById("operacion").value;
+    var resultado = 0;
+
+    if (operacion === "suma") {
+        resultado = n1 + n2;
+    } else if (operacion === "resta") {
+        resultado = n1 - n2;
+    } else if (operacion === "multiplicacion") {
+        resultado = n1 * n2;
+    } else if (operacion === "division") {
+        if (n2 === 0) {
+            document.getElementById("resultado").textContent = "No se puede dividir entre 0";
+            return;
+        }
+        resultado = n1 / n2;
+    }
+
+    document.getElementById("resultado").textContent = "Resultado: " + resultado;
+});

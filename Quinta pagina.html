@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Quinta pagina</title>
-        <link rel="icon" href="imagenes/senati.jpg">
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-       <header>
-            <img src="imagenes/senati.jpg" alt="senati.jpg" width="300" height="300">
-            <h1>MI PRIMERA PAGINA WEB</h1>
-            <h2>Soy Alejandro</h2>
-       </header>
-       <nav>
-           <ul id="menu">
+<head>
+    <title>Quinta pagina</title>
+    <link rel="icon" href="imagenes/senati.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/senati.jpg" alt="senati" width="300" height="300">
+        <h1>MI PRIMERA PAGINA WEB</h1>
+        <h2>Soy Alejandro</h2>
+    </header>
+
+    <nav>
+        <ul id="menu">
             <li><a href="Mi Primera Pagina.html">Primera Pagina</a></li>
             <li><a href="segunda pagina.html">Segunda Pagina</a></li>
             <li><a href="Tercera Pagina.html">Tercera Pagina</a></li>
@@ -20,81 +21,98 @@
             <li><a href="Quinta pagina.html">Quinta Pagina</a></li>
             <li><a href="Pagina Personal.html">Pagina Personal</a></li>
             <li><a>ENTREGABLE</a></li>
-           </ul> 
-        </nav>
-       <section>
+        </ul>
+    </nav>
+
+    <section>
+
         <article>
-         <H3>Mi primer Formulario</H3>
-         <form action="" method="post">
-            <fieldset>
-               <legend>Datos personales</legend>
-                  <input type="text" name="nombre" placeholder="Nombre completo">
-                  <input type="email" name="correo" placeholder="Correo electrónico">
-            </fieldset>
+            <h3>Mi primer Formulario</h3>
 
-            <input type="email" name="correo" placeholder="email">
-            <input type="number" name="edad" min="1" max="100">
-            <input type="date" name="fecha_nacimiento">
-            <input type="file" name="documento">
-            <h4> Botones de radio </h4>
-            <p>Género:</p>
-               <label><input type="radio" name="genero" value="masculino"> Masculino</label>
-               <label><input type="radio" name="genero" value="femenino"> Femenino</label>
-               <label><input type="radio" name="genero" value="otro"> Otro</label>
+            <form action="" method="post">
 
-            <h4>Casillas</h4>
-            <p>Intereses:</p>
-            <label><input type="checkbox" name="interes" value="musica"> Música</label>
-            <label><input type="checkbox" name="interes" value="cine"> Cine</label>
-            <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
-            <label><input type="checkbox" name="interes" value="programar"> Programar</label>
-            
-            <h4>Lista desplegable simple </h4>
-            <select name="pais">
-               <option value="ar">Argentina</option>
-               <option value="co">Colombia</option>
-                <option value="mx">México</option>
-                <option value="pe">Perú</option>
-            </select>
-            <h4>Lista con múltiples opciones</h4>
-            <select name="cursos" multiple size="1">
-               <option value="html">HTML</option>
-               <option value="css">CSS</option>
-               <option value="js">JavaScript</option>
-               <option value="php">PHP</option>
-            </select>
-            <h4>Área de texto (varias líneas)</h4>
-            <textarea name="comentarios" rows="4" cols="40" placeholder="aqui ponga sus comentarios"></textarea>
-            <h4>Botones</h4>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-            <button type="button" onclick="alert('Hola')">Haz clic</button>
-   
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <input type="text" name="nombre" placeholder="Nombre completo">
+                    <input type="email" name="correo" placeholder="Correo electrónico">
+                </fieldset>
+
+                <input type="email" name="correo" placeholder="email">
+                <input type="number" name="edad" min="1" max="100">
+                <input type="date" name="fecha_nacimiento">
+                <input type="file" name="documento">
+
+                <h4>Botones de radio</h4>
+                <p>Género:</p>
+                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                <label><input type="radio" name="genero" value="otro"> Otro</label>
+
+                <h4>Casillas</h4>
+                <p>Intereses:</p>
+                <label><input type="checkbox" name="interes" value="musica"> Música</label>
+                <label><input type="checkbox" name="interes" value="cine"> Cine</label>
+                <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
+                <label><input type="checkbox" name="interes" value="programar"> Programar</label>
+
+                <h4>Lista desplegable simple</h4>
+                <select name="pais">
+                    <option value="ar">Argentina</option>
+                    <option value="co">Colombia</option>
+                    <option value="mx">México</option>
+                    <option value="pe">Perú</option>
+                </select>
+
+                <h4>Lista con múltiples opciones</h4>
+                <select name="cursos" multiple size="1">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="php">PHP</option>
+                </select>
+
+                <h4>Área de texto</h4>
+                <textarea name="comentarios" rows="4" cols="40" placeholder="aqui ponga sus comentarios"></textarea>
+
+                <h4>Botones</h4>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+
+                <button type="button" onclick="saludar()">Haz clic</button>
+
             </form>
-      </article>
+        </article>
+
         <article>
-                 <h2>Calculadora Basica con JS</h2> 
-                   <label for="numero1">Número 1: </label>
-                    <input type="number" id="numero1"><br>
-                    <label for="numero2">Número 2: </label>
-                    <input type="number" id="numero2"><br>
-                    <label for="operacion">Operación: </label>
-                    <select id="operacion">
-                        <option value="suma">Suma</option>
-                        <option value="resta">Resta</option>
-                        <option value="multiplicacion">Multiplicación</option>
-                        <option value="division">División</option>
-                        
-                    </select><br>
-                    <button id="calcular">Calcular</button>
-                    <p id = "resultado"></p>
-      </aside>
-       </section>
-      <footer>
-         <a href="https://github.com/arnoldbgq/arnoldgonzalez" target="_blank">Repositorio del Instructor</a>
-         <a href="https://arnoldbgq.github.io/arnoldgonzalez/" target="_blank">Página del Instructor</a>
-         <a href="https://github.com/flores15castilla-png/AlejandroFlorescCastilla" target="_blank">github de Alejandro</a>
-         <p>&copy;2025 - Segundo Semestre - Todo los Derechos Reservados </p>
-       </footer>
-    </body>
+            <h2>Calculadora Basica con JS</h2>
+
+            <label for="numero1">Número 1: </label>
+            <input type="number" id="numero1"><br>
+
+            <label for="numero2">Número 2: </label>
+            <input type="number" id="numero2"><br>
+
+            <label for="operacion">Operación: </label>
+            <select id="operacion">
+                <option value="suma">Suma</option>
+                <option value="resta">Resta</option>
+                <option value="multiplicacion">Multiplicación</option>
+                <option value="division">División</option>
+            </select><br>
+
+            <button id="calcular">Calcular</button>
+            <p id="resultado"></p>
+        </article>
+
+    </section>
+
+    <footer>
+        <a href="https://github.com/arnoldbgq/arnoldgonzalez" target="_blank">Repositorio del Instructor</a>
+        <a href="https://arnoldbgq.github.io/arnoldgonzalez/" target="_blank">Página del Instructor</a>
+        <a href="https://github.com/flores15castilla-png/AlejandroFlorescCastilla" target="_blank">github de Alejandro</a>
+        <p>&copy;2025 - Segundo Semestre - Todo los Derechos Reservados</p>
+    </footer>
+
+    <script src="js/calculadora.js"></script>
+</body>
 </html>
