@@ -12,7 +12,7 @@ function ceniza(){
 }
 
 function cambiarColor(){
-    document.getElementById('menu').style.color = '#68000e';
+    document.getElementById('menu').style.color = '#b61b30ff';
     alert("conformate con este humilde color >:V");
 }
 
@@ -22,7 +22,7 @@ function cambiarLogo(){
 }
 
 function cambiarFondo(){
-    document.querySelector('nav').style.background = '#ffe553';
+    document.querySelector('nav').style.background = '#742006ff';
     alert("muchacho deja el racismo");
 }
 
@@ -32,5 +32,5 @@ function cambiodeTexto(){
 }
 
 function fondoAside(){
-    document.getElementById('aside').style.background = '#15ff00';
+    document.getElementById('aside').style.background = '#15720cff';
 }
