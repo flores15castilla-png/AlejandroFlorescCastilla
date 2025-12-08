@@ -2,14 +2,12 @@ console.log("Hola muchacho");
 alert("Yo lo veo a usted muy bien");
 
 function bebe() {
-    const img = document.getElementById('bebe');
-    img.src = 'imagenes/bebe.png';
+    const img = document.getElementById('bebe').src = 'imagenes/bebe.png';
     alert("hola que tal");
 }
 
 function ceniza() {
-    const img = document.getElementById('ceniza');
-    img.src = 'imagenes/ceniza.png';
+    const img = document.getElementById('ceniza').src = 'imagenes/ceniza.png';
     alert("me quitaste mis derechos T_T");
 }
 
