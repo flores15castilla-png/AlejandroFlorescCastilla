@@ -17,7 +17,7 @@ function cambiarColor() {
 }
 
 function cambiarLogo() {
-    document.querySelector('header img').src = 'imagenes/logo 2.png';
+    document.querySelector('header img').src = 'imagenes/senati 2.png';
     alert("Logo cambiado");
 }
 
