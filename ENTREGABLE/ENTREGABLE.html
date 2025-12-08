@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMarket Tienda Organica</title>
+    <meta name="description" content="EcoMarket ofrece productos organicos, frescos y saludables. Compra frutas, verduras, granos y mas.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>EcoMarket</h1>
+        <img src="" alt="logo de la tienda">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#sobre">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    <section id="home" class="home-section">
+        <article>
+            <h2>Bienvenido a EcoMarket</h2>
+            <p>Somos una tienda dedicada a ofrecer productos organicos y ecológicos de alta calidad, respetando el medio ambiente.</p>
+        </article>
+    </section>
+
+    <section id="productos" class="productos-section">
+        <article>
+            <h2>Productos Disponibles</h2>
+
+            <div class="contenedor-productos">
+
+                <div class="producto" data-stock="5">
+                    <img src="" alt="imagen de producto">
+                    <h3>Producto 1</h3>
+                    <p class="precio">Precio: 10.00</p>
+                    <span class="estado"></span>
+                    <button class="btn-carrito">Agregar al carrito</button>
+                </div>
+
+                <div class="producto" data-stock="0">
+                    <img src="" alt="imagen de producto">
+                    <h3>Producto 2</h3>
+                    <p class="precio">Precio: 15.00</p>
+                    <span class="estado"></span>
+                    <button class="btn-carrito">Agregar al carrito</button>
+                </div>
+
+                <div class="producto" data-stock="3">
+                    <img src="" alt="imagen de producto">
+                    <h3>Producto 3</h3>
+                    <p class="precio">Precio: 20.00</p>
+                    <span class="estado"></span>
+                    <button class="btn-carrito">Agregar al carrito</button>
+                </div>
+
+            </div>
+
+        </article>
+
+        <aside>
+            <h3>Noticias</h3>
+            <p>Nuevos productos organicos llegaran esta semana. Mantente atento.</p>
+        </aside>
+    </section>
+
+    <section id="sobre">
+        <article>
+            <h2>Sobre Nosotros</h2>
+            <p>EcoMarket trabaja con agricultores locales para garantizar que cada producto sea fresco, organico y sostenible.</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <article>
+            <h2>Contacto</h2>
+            <form id="formulario">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" required>
+
+                <label for="correo">Correo</label>
+                <input id="correo" type="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <p id="mensaje-estado"></p>
+            </form>
+        </article>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>EcoMarket 2025</p>
+        <a href="#home">Volver arriba</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
