@@ -17,7 +17,7 @@ function cambiarColor(){
 }
 
 function cambiarLogo(){
-    document.querySelector('header img').src = 'imagenes/senati2.jpg';
+    document.querySelector('header img').src = 'imagenes/senati 2.jpg';
     alert("Te entiendo, aveces lo simple es mejor");
 }
 
