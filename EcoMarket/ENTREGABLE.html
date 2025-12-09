@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTREGABLE</title>
+    <meta name="description" content="EcoMarket tienda online de productos organicos. Compra frutas, verduras, granos y más.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <h1>EcoMarket</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <article>
+                <h2>Bienvenido a EcoMarket</h2>
+                <p>Tu tienda online de productos orgánicos frescos y saludables. Disfruta de nuestra selección ecológica de frutas, verduras y granos.</p>
+            </article>
+        </section>
+
+        <section id="productos" class="productos-container">
+            <!-- Producto 1 -->
+            <div class="producto" id="p1" data-stock="5">
+                <div class="img-box">
+                    <!-- Pon aquí tu imagen: <img src='img/producto1.jpg' alt='Producto 1'> -->
+                </div>
+                <h3>Producto 1</h3>
+                <p class="precio">$10.00</p>
+                <p class="mensaje-producto"></p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="producto" id="p2" data-stock="0">
+                <div class="img-box"></div>
+                <h3>Producto 2</h3>
+                <p class="precio">$15.00</p>
+                <p class="mensaje-producto"></p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="producto" id="p3" data-stock="3">
+                <div class="img-box"></div>
+                <h3>Producto 3</h3>
+                <p class="precio">$20.00</p>
+                <p class="mensaje-producto"></p>
+                <button class="btn-carrito">Agregar al carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>EcoMarket 2025</p>
+        <a href="#home">Volver arriba</a>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="busqueda.js"></script>
+</body>
+</html>

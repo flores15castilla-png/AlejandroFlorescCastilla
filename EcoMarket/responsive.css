@@ -1,0 +1,40 @@
+@media(max-width:768px){
+    nav ul{
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
+    }
+
+    .productos-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .producto{
+        width:90%;
+    }
+
+    .detalle-producto{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .detalle-producto .img-box{
+        width:80%;
+        height:200px;
+    }
+}
+
+@media(max-width:480px){
+    body{
+        padding:10px;
+    }
+
+    header, footer{
+        padding:15px;
+    }
+
+    .btn-carrito, form button{
+        width:100%;
+    }
+}
