@@ -4,25 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENTREGABLE</title>
+    <meta name="description" content="EcoMarket tienda online de productos organicos. Compra frutas, verduras, granos y más.">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-
     <header>
         <h1>EcoMarket</h1>
-        <!-- Puedes poner tu logo -->
-        <!-- <img src="img/logo.png" alt="EcoMarket"> -->
     </header>
 
     <nav>
         <ul>
-            <li><a href="mi-primera-pagina.html">Primera Pagina</a></li>
-            <li><a href="segunda-pagina.html">Segunda Pagina</a></li>
-            <li><a href="tercera-pagina.html">Tercera Pagina</a></li>
-            <li><a href="cuarta-pagina.html">Cuarta Pagina</a></li>
-            <li><a href="quinta-pagina.html">Quinta Pagina</a></li>
-            <li><a href="pagina-personal.html">Pagina Personal</a></li>
-            <li><a href="ENTREGABLE.html">ENTREGABLE</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
@@ -35,11 +30,10 @@
         </section>
 
         <section id="productos" class="productos-container">
-
             <!-- Producto 1 -->
             <div class="producto" id="p1" data-stock="5">
                 <div class="img-box">
-                    <!-- <img src="img/producto1.jpg" alt="Producto 1"> -->
+                    <!-- Pon aquí tu imagen: <img src='img/producto1.jpg' alt='Producto 1'> -->
                 </div>
                 <h3>Producto 1</h3>
                 <p class="precio">$10.00</p>
@@ -49,9 +43,7 @@
 
             <!-- Producto 2 -->
             <div class="producto" id="p2" data-stock="0">
-                <div class="img-box">
-                    <!-- <img src="img/producto2.jpg" alt="Producto 2"> -->
-                </div>
+                <div class="img-box"></div>
                 <h3>Producto 2</h3>
                 <p class="precio">$15.00</p>
                 <p class="mensaje-producto"></p>
@@ -60,15 +52,12 @@
 
             <!-- Producto 3 -->
             <div class="producto" id="p3" data-stock="3">
-                <div class="img-box">
-                    <!-- <img src="img/producto3.jpg" alt="Producto 3"> -->
-                </div>
+                <div class="img-box"></div>
                 <h3>Producto 3</h3>
                 <p class="precio">$20.00</p>
                 <p class="mensaje-producto"></p>
                 <button class="btn-carrito">Agregar al carrito</button>
             </div>
-
         </section>
     </main>
 
@@ -79,6 +68,5 @@
 
     <script src="script.js"></script>
     <script src="busqueda.js"></script>
-
 </body>
 </html>
